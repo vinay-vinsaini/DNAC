@@ -23,6 +23,8 @@ headers = {
               'x-auth-token': ""
           }
 
+# New version
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def dnac_login(host, username, password):
